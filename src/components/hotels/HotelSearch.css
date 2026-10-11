@@ -1,0 +1,48 @@
+.hotel-search-wrapper {
+  flex: 1;
+  min-width: 260px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.hotel-search-input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.hotel-search-icon {
+  position: absolute;
+  left: 12px;
+  color: var(--color-text-secondary);
+  pointer-events: none;
+}
+
+.hotel-search-input {
+  width: 100%;
+  height: 42px;
+  padding: var(--spacing-2) var(--spacing-4) var(--spacing-2) 40px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  font-family: inherit;
+  font-size: 14px;
+  color: var(--color-text-main);
+  background-color: var(--color-card);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hotel-search-input:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  outline: none;
+}

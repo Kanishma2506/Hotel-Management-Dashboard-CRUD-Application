@@ -1,0 +1,34 @@
+.rating-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.rating-star-icon {
+  color: #F59E0B;
+  fill: #F59E0B;
+  flex-shrink: 0;
+}
+
+.rating-score {
+  font-weight: 700;
+  color: var(--color-text-main);
+}
+
+.rating-separator {
+  color: var(--color-text-secondary);
+  margin: 0 1px;
+}
+
+.rating-reviews {
+  color: var(--color-text-secondary);
+  font-weight: 400;
+}
+
+.rating-no-reviews {
+  color: var(--color-text-secondary);
+  font-style: italic;
+  font-size: 13px;
+}
